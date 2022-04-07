@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(148, 146, 146);
+}
+
+.bodys{
+
+        background-color: rgb(165, 123, 61) ;
+        border-color: rgb(0, 0, 0);
+        border-width: 3px;
+        border-style: solid;
+        width: 1000px;
+        border-radius: 3px;
+        margin: 0 auto;
+        padding: 5px;
+}
+
+.banner{
+        background-color: rgb(105, 105, 105) ;
+        border-color: rgb(0, 0, 0);
+        border-width: 1px;
+        border-style: solid;
+        width: 1000px;
+        border-radius: 3px;
+        margin: 0 auto;
+        padding: 5px;
+
+}
