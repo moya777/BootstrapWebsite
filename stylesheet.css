@@ -4,7 +4,7 @@ body{
 
 .bodys{
 
-        background-color: rgb(165, 123, 61) ;
+        background-color: rgb(175, 132, 66) ;
         border-color: rgb(0, 0, 0);
         border-width: 3px;
         border-style: solid;
@@ -15,7 +15,19 @@ body{
 }
 
 .banner{
-        background-color: rgb(126, 125, 125) ;
+        background-color: rgb(139, 137, 137) ;
+        border-color: rgb(0, 0, 0);
+        border-width: 1px;
+        border-style: solid;
+        width: 1400px;
+        border-radius: 3px;
+        margin: 0 auto;
+        padding: 5px;
+}
+
+
+.footer{
+        background-color: rgb(255, 255, 255) ;
         border-color: rgb(0, 0, 0);
         border-width: 1px;
         border-style: solid;
@@ -25,21 +37,10 @@ body{
         padding: 5px;
 }
 
-.footer{
-        background-color: rgb(126, 125, 125) ;
-        border-color: rgb(0, 0, 0);
-        border-width: 1px;
-        border-style: solid;
-        width: 1000px;
-        border-radius: 3px;
-        margin: 0 auto;
-        padding: 5px;
-}
-
 /* Navbar container */
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(166, 226, 213);
     font-family: Arial;
     border-radius: 5px;
   }

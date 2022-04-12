@@ -12,27 +12,42 @@
 </head>
 <body>
   <div class = "banner"> 
-    <!--<img src = "temp-logo.png"  alt = "temporary logo" height="60" width="60">-->
-    <!--<iframe frameborder = "0" src = "navigation.html" height="120" width="100%" ></iframe>-->
-    <div class="navbar">
-      <a href="index.html" target = "_parent">Home</a>
-      <a href="aboutme.html" target = "_parent">About Me</a>
-      <div class="dropdown show">
-          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Destinations
-          </a>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <a class="dropdown-item" href="#" target = "_parent">Asia</a>
-            <a class="dropdown-item" href="#" target = "_parent">Africa</a>
-            <a class="dropdown-item" href="#" target = "_parent">Europe</a>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">AT</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutme.html" target = "_parent">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactme.html" target = "_parent">Contact me</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Destinations 
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="europe.html" target = "_parent">Europe</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
-      <a href="contactme.html" target = "_parent">Contact Me</a>
-    </div> 
+      </div>
+    </nav>
+    <br>
     <img src = "Trvelakht-logo.png"  alt = "test image " height = "500" width = "988">
   </div>
-  
-  <br>
+
+  <br><br>
+
+ 
   
   <div class = "bodys">
     <h1> Home Page</h1>
