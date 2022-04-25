@@ -1,28 +1,31 @@
 body{
-    background-color: rgb(161, 205, 223);
+    /*background-color: rgb(161, 205, 223);*/
+    background-image: url(background.jpg) ;
 }
 
 .bodys{
 
-        background-color: rgb(196, 196, 196) ;
+        background-color: rgb(223, 219, 219) ;
         border-color: rgb(0, 0, 0);
         border-width: 1px;
         border-style: solid;
-        width: 1000px;
+        max-width: 1000px;
         border-radius: 3px;
         margin: 0 auto;
         padding: 5px;
 }
 
 .banner{
-        background-color: rgb(196, 196, 196) ;
+        background-color: rgb(223, 219, 219) ;
         border-color: rgb(0, 0, 0);
         border-width: 1px;
         border-style: solid;
-        width: 1200px;
         border-radius: 3px;
         margin: 0 auto;
         padding: 5px;
+        max-width: 1000px;
+         
+        
 }
 
 
@@ -78,4 +81,15 @@ body{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+  }
+
+  .postcard{
+    max-width: 18rem; 
+    margin-right: 50px; 
+    margin-bottom: 50px;
+
+  }
+
+  .e-photos{
+    height: 250px;
   }
