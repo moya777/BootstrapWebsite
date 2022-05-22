@@ -114,10 +114,10 @@ body{
   a:hover.asia-btn{
     background-color: rgb(238, 203, 157);
   }
-  a:hover.europe-btn{
+  a:hover.northamerica-btn{
     background-color: rgb(157, 176, 238);
   }
-  a:hover.northamerica-btn{
+  a:hover.europe-btn{
     background-color: rgb(238, 157, 157);
   }
 
@@ -145,10 +145,14 @@ body{
     border-width: 3px;
     border-style: solid;
     border-radius: 3px;
-    
     /*display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;*/
     
+  }
+
+  .img-res{
+    max-width: 400px;
+    margin-left: auto;
   }
